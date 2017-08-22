@@ -1,0 +1,66 @@
+#page{
+    width: 80%;
+    margin: auto;
+}
+
+#header,#footer{
+    padding: 5px;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    clear: both;
+    text-align: center;
+}
+
+#main{
+    width: 100%;
+    background:skyblue;
+
+}
+#sidebar{
+    width: 20%;
+    float: left;
+    background-color: gainsboro;
+    padding: 10px;
+    margin: 10px;
+}
+#content {
+    width: 72%;
+    margin: 10px;
+    padding: 10px;
+    background-color: azure;
+    float: right;
+}
+.nav li a{
+    text-decoration: none;
+    line-height: 50px;
+}
+.nav li{
+    list-style: none;
+    height: 50px;
+    border-bottom: 1px dotted white;
+}
+#content table th{
+    border: 1px dotted black;
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    color: white;
+
+}
+#content table tr{
+    height: 50px;
+}
+form {
+    width: 80%;
+    margin: auto;
+}
+form label{
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
